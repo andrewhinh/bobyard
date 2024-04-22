@@ -1,3 +1,6 @@
 .env
 Firefighting-Device-Detection-6/
 checkpoint_100.tar
+.lr_find_*.ckpt
+.scale_batch_size_*.ckpt
+lightning_logs/
