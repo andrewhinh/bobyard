@@ -1,0 +1,14 @@
+name: bobyard
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.4
+  - pip=23.2.1
+  - cudatoolkit=11.8.0
+  - cudnn=8.9.2.26
+  - pip:
+      - ipykernel==6.29.4
+      - roboflow==1.1.27
+      - python-dotenv==1.0.1
+      - simclr==1.0.2
